@@ -1,10 +1,10 @@
 DOCKER_IMG ?= "armhf-nginx-alpine"
 DOCKER_USER ?= ""
 
-VERSION = "1.12.2"
+VERSION = "1.13.7"
 VERSION_MAJOR = "1"
-VERSION_MINOR = "1.12"
-VERSION_TYPE = "stable"
+VERSION_MINOR = "1.13"
+VERSION_TYPE = "latest"
 
 TAG_NAME = "${DOCKER_IMG}"
 ifneq ($(DOCKER_USER), "")
